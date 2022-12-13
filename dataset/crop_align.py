@@ -2,7 +2,9 @@ import numpy as np
 import argparse
 import tqdm
 import os
-
+import sys
+sys.path.append(os.getcwd())
+print(os.getcwd())
 from utils.utils import norm_crop
 from PIL import Image
 
