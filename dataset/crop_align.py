@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     im_target = opt.target_dir
 
-    face_detector = load_model("models/retinaface_res50.h5", custom_objects={"FPN": FPN,
+    face_detector = load_model("RetinaFace/RetinaFace-Res50.h5", custom_objects={"FPN": FPN,
                                                                              "SSH": SSH,
                                                                              "BboxHead": BboxHead,
                                                                              "LandmarkHead": LandmarkHead,
